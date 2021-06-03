@@ -149,8 +149,8 @@ class Tooltip extends React.Component<Props, State> {
       <View
         style={{
           position: 'absolute',
-          top: pastMiddleLine ? yOffset - 13 : yOffset + elementHeight - 2,
-          left: I18nManager.isRTL ? null : xOffset + elementWidth / 2 - 7.5,
+          top: pastMiddleLine ? yOffset - 38 : yOffset + elementHeight - 2,
+          left: I18nManager.isRTL ? null : xOffset + elementWidth / 2 - 35,
           right: I18nManager.isRTL ? xOffset + elementWidth / 2 - 7.5 : null,
         }}
       >
